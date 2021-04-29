@@ -44,7 +44,7 @@
 
                 <p>Crear un elemento que acepte solo mayusculas.</p>
                 <form name="Formulario">
-                    <input type="text" name="letrasMayusculas" required pattern="[A-Z]+" >
+                    <input type="text" name="letrasMayusculas" required pattern="[A-Z]+">
                     <input type="submit" value="Validar" title="Solo letras MAYUSCULAS">
                 </form>
                 <br />
@@ -69,31 +69,28 @@
                 <p>Crear un elemento Archivo y que verifique el peso del Archivo y que no se pase de uno establecido.</p>
                 <form name="Formulario">
                     <input type="file" name="archivo" required>
-                    <input type="reset" value="limpiar" >
+                    <input type="reset" value="limpiar">
                 </form>
                 <br />
                 <br />
                 <p>Crear un elemento que te despliegue un Mensaje Emergente (HTML).</p>
                 <div class="contenedor">
-		<article>
-			<button id="btn-abrir-popup" class="btn-abrir-popup">Abrir Ventana Emergente</button>
-		</article>
+                    <article>
+                        <button id="btn-abrir-popup" class="btn-abrir-popup">Abrir Ventana Emergente</button>
+                    </article>
 
-		<div class="overlay" id="overlay">
-			<div class="popup" id="popup">
-				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-				<h3>Hola!</h3>
-				<h4>esta es una ventana emergente.</h4>
-				<form action="">
-					<input type="submit" class="btn-submit" value="cerrar ventana">
-				</form>
-			</div>
-		</div>
-	</div>
-
-	<script src="popup.js"></script>
-               
-
+                    <div class="overlay" id="overlay">
+                        <div class="popup" id="popup">
+                            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                            <h3>Hola!</h3>
+                            <h4>esta es una ventana emergente.</h4>
+                            <form action="">
+                                <input type="submit" class="btn-submit" value="cerrar ventana">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <script src="popup.js"></script>
             </div>
 
             <!-- Optional JavaScript; choose one of the two! -->
