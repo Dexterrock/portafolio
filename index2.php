@@ -34,7 +34,7 @@
         <ul class="navbar-nav ml-auto">
    
           <li class="nav-item">
-            <a class="nav-link" href="portafolio.php" id="portafolio">Portafolio</a>
+            <a class="nav-link" href="portafolio.php" id="portafolio">Menu Horizontal</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="logout.php" id="Exit">Salir</a>
@@ -54,6 +54,8 @@
 			<a href="./portafolio.php">Actividad 1-3</a>
 			<a href="./actividad5.php">Actividad 1-5</a> 
       <a href="https://github.com/Dexterrock/portafolio/tree/fda0f5b95c0db9911e66d6b016a5319aca651a06">Todos los Archivos</a>
+      <a href="./formulario.php">Actividad 2-1</a>
+      <a href="./formulario2.php">Actividad 2-2</a>
 		</nav>
 		<label for="btn-menu">✖️</label>
 	</div>
